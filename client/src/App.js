@@ -2,6 +2,7 @@ import React from 'react';
 import GoogleLogin from './components/GoogleLogin/GoogleLogin';
 import Profile from './components/Profile/Profile';
 
+//This is main component
 class App extends React.Component {
   state = {
     isLoggedIn: false,
